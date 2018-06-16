@@ -67,7 +67,12 @@ let firstVariable = "Hello World";
 // }
 
 
-// Let's Get Even
+// // Let's Get Even
+// for(let i = 0; i <= 100; i += 2){
+//   if(i % 2 === 0);
+//   console.log(i + " is an even number")
+// }
+
 
 
 
