@@ -5,18 +5,18 @@
 // 3. Concatenation or interpolation
 
 
-// Strings
-// 1.
-let firstVariable = "Hello World";
-  firstVariable = 5;
-  secondVariable = firstVariable;
-  secondVariable = "word";
-  console.log(firstVariable);
+// // Strings
+// // 1.
+// let firstVariable = "Hello World";
+//   firstVariable = 5;
+//   secondVariable = firstVariable;
+//   secondVariable = "word";
+//   console.log(firstVariable);
 
-// 2.
-  yourName = "Steve";
-  greeting = "Hello, my name is ";
-  console.log(greeting + yourName);
+// // 2.
+//   yourName = "Steve";
+//   greeting = "Hello, my name is ";
+//   console.log(greeting + yourName);
 
 // // Booleans
   // const a = 4;
@@ -34,12 +34,12 @@ let firstVariable = "Hello World";
   // 48 !== '48';
 
 // // Farm
-//   let animal = true;
-//     if(animal === "cow") {
-//       console.log("Mooooo!");
-//     } else {
-//       console.log("Hey! You're not a cow!");
-//     }
+// let animal = true;
+//   if(animal === "cow") {
+//     console.log("Mooooo!");
+//   } else {
+//      console.log("Hey! You're not a cow!");
+//   }
 
   
 // // Driver's Ed
@@ -49,8 +49,6 @@ let firstVariable = "Hello World";
 //   } else {
 //     console.log("Sorry, you're too young");
 //   }
-
-//   console.log(15);
 
 
 // // Just Loop It
@@ -74,6 +72,16 @@ let firstVariable = "Hello World";
 // }
 
 
+// // Give Me Five
+// for(let i = 0; i <= 100; i++){
+//   if(i % 5 === 0) {
+//  console.log("I found a " + i + "." + " High five!")
+//  } else {
+//   if (i % 3 === 0) {
+//     console.log("I found a " + i + "." + " Three is a crowd");
+//   }
+//  }
+// }
 
 
 
