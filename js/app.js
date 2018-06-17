@@ -115,15 +115,22 @@
 // console.log(`${sum}`);
 
 
-// Easy Does It
+// // Easy Does It
 // const quotes = ["Some body", "once told me", "the world was gonna roll me"];
 
 
-// Random
-const  randomThings = [1, 10, "Hello", true];
-console.log(randomThings[0]);
-randomThings[2] = "World";
-console.log(randomThings);
+// // Random
+// const  randomThings = [1, 10, "Hello", true];
+// console.log(randomThings[0]);
+// randomThings[2] = "World";
+// console.log(randomThings);
+
+// // We've Got Class
+// const ourClass = ["Gizmo", "Zoom", "Github", "Slack"];
+// console.log(ourClass[2]);
+// ourClass[2] = "Octocat";
+// ourClass.push("Cloud City");
+// console.log(ourClass);
 
 
 
