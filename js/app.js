@@ -144,34 +144,35 @@
 // console.log(myArray);
 
 
-// Biggie Smalls
-const biggieSmalls = (num) => {
-  if(num < 100){
-  console.log("little number");
-} else {
-  console.log("big number");
-}
-}
-
-biggieSmalls(43);
-biggieSmalls(9000);
-
-
-
-
-// // Monkey in the Middle
-// let littleNumber = 0;
-// if(i = 0; i < 5; i++){
-//   return "little number";
+// // Biggie Smalls
+// const biggieSmalls = (num) => {
+//   if(num < 100){
+//   console.log("little number");
 // } else {
-//   if(i >= 10) {
-//     return "big number";
-//   } else {
-//     console.log("monkey");
-//   }
+//   console.log("big number");
+// }
 // }
 
-console.log(15);
+// biggieSmalls(43);
+// biggieSmalls(9000);
+
+
+// Monkey in the Middle
+const littleNumber = (num) => {
+if(num < 5) {
+  console.log("little number");
+} else {
+  if(num >= 10) {
+    console.log("big number");
+  } else {
+    console.log("monkey");
+  }
+}
+}
+
+littleNumber(3);
+littleNumber(17);
+littleNumber(8);
 
 
 // What's in Your Closet?
