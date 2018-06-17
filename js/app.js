@@ -157,25 +157,101 @@
 // biggieSmalls(9000);
 
 
-// Monkey in the Middle
-const littleNumber = (num) => {
-if(num < 5) {
-  console.log("little number");
-} else {
-  if(num >= 10) {
-    console.log("big number");
-  } else {
-    console.log("monkey");
-  }
-}
-}
+// // Monkey in the Middle
+// const littleNumber = (num) => {
+// if(num < 5) {
+//   console.log("little number");
+// } else {
+//   if(num >= 10) {
+//     console.log("big number");
+//   } else {
+//     console.log("monkey");
+//   }
+// }
+// }
 
-littleNumber(3);
-littleNumber(17);
-littleNumber(8);
+// littleNumber(3);
+// littleNumber(17);
+// littleNumber(8);
 
 
 // What's in Your Closet?
+const kristynsCloset = [
+  "left shoe",
+  "cowboy boots",
+  "right sock",
+  "GA hoodie",
+  "green pants",
+  "yellow knit hat",
+  "marshmallow peeps"
+];
+
+// Thom's closet is more complicated. Check out this nested data structure!!
+const thomsCloset = [
+  [
+    // These are Thom's shirts
+    "grey button-up",
+    "dark grey button-up",
+    "light blue button-up",
+    "blue button-up",
+  ],[
+    // These are Thom's pants
+    "grey jeans",
+    "jeans",
+    "PJs"
+  ],[
+    // Thom's accessories
+    "wool mittens",
+    "wool scarf",
+    "raybans"
+  ]
+];
+
+// 1.
+console.log("Kristyn is rocking that " + kristynsCloset[6] + " today!")
+
+// 2.
+kristynsCloset.shift();
+let rogueShoe = "left shoe";
+console.log(rogueShoe);
+console.log(kristynsCloset);
+
+// 3.
+kristynsCloset.splice(5, 0, "raybans");
+console.log(kristynsCloset);
+
+// 4.
+kristynsCloset[5] = "stained knit hat";
+console.log(kristynsCloset);
+
+// 5.
+console.log(thomsCloset[0][1]);
+
+// 6.
+console.log(thomsCloset[1][1]);
+
+// 7.
+console.log(thomsCloset[2][2]);
+
+// 8. 
+console.log("Thom is looking fierce in a " + thomsCloset[0][1] + ", " + thomsCloset[1][1] + ", and " + thomsCloset[2][1] + "!");
+
+// 9. 
+thomsCloset[1][2] = "Footie pajamas";
+console.log(thomsCloset[1]);
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
