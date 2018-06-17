@@ -34,12 +34,18 @@
   // 48 !== '48';
 
 // // Farm
-// let animal = true;
-//   if(animal === "cow") {
+// const animal = (maybeCow) => {
+// const animalArr = maybeCow.split("");
+// const animalStr = animalArr.join("");
+// console.log(animalStr);
+//   if(animalStr === cow) {
 //     console.log("Mooooo!");
 //   } else {
 //      console.log("Hey! You're not a cow!");
 //   }
+  
+// animal('cow');
+// animal('platypus');
 
   
 // // Driver's Ed
@@ -49,6 +55,11 @@
 //   } else {
 //     console.log("Sorry, you're too young");
 //   }
+// 
+// console.log(20);
+// console.log(12);
+
+// I know I am close with these, but I can't figure out what I'm doing wrong
 
 
 // // Just Loop It
@@ -84,7 +95,24 @@
 // }
 
 
+// // Savings Account
+// let bank_account = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let total = 1;
+//   for(i = 1; i <= 10; i++){
+//     total += bank_account[i];
+// }
 
+// console.log(i);
+
+
+// // Multiples of 3 and 5
+// let sum = 0;
+// for (let i = 1; i <= 1000; i++){
+//   if (i % 5 === 0 || i % 3 === 0){
+//     sum += i;
+//  }
+// };
+// console.log(`${sum}`);
 
 
 
