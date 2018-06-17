@@ -133,6 +133,15 @@
 // console.log(ourClass);
 
 
+// Mix It Up
+const myArray = [5, 10, 500, 20];
+myArray.push("Egon");
+myArray.pop();
+myArray.unshift("Bob Marley");
+myArray.shift();
+myArray.reverse();
+
+console.log(myArray);
 
 
 
