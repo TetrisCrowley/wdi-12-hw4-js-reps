@@ -133,16 +133,48 @@
 // console.log(ourClass);
 
 
-// Mix It Up
-const myArray = [5, 10, 500, 20];
-myArray.push("Egon");
-myArray.pop();
-myArray.unshift("Bob Marley");
-myArray.shift();
-myArray.reverse();
+// // Mix It Up
+// const myArray = [5, 10, 500, 20];
+// myArray.push("Egon");
+// myArray.pop();
+// myArray.unshift("Bob Marley");
+// myArray.shift();
+// myArray.reverse();
 
-console.log(myArray);
+// console.log(myArray);
 
+
+// Biggie Smalls
+const biggieSmalls = (num) => {
+  if(num < 100){
+  console.log("little number");
+} else {
+  console.log("big number");
+}
+}
+
+biggieSmalls(43);
+biggieSmalls(9000);
+
+
+
+
+// // Monkey in the Middle
+// let littleNumber = 0;
+// if(i = 0; i < 5; i++){
+//   return "little number";
+// } else {
+//   if(i >= 10) {
+//     return "big number";
+//   } else {
+//     console.log("monkey");
+//   }
+// }
+
+console.log(15);
+
+
+// What's in Your Closet?
 
 
 
