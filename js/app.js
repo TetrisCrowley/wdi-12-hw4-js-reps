@@ -96,14 +96,21 @@ for(let i = 0; i <= 100; i++){
 
 
 // Savings Account
-let bank_account = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-let total = 1;
+// 1.
+let bankAccount = 0;
   for(i = 1; i <= 10; i++){
-    total += bank_account[i];
+    bankAccount= bankAccount + i;
 }
 
-console.log(i);
+console.log(bankAccount);
 
+// 2. 
+bankAccount = 0;
+  for(i = 1; i <= 100; i++){
+    bankAccount= bankAccount + 2 * i;
+}
+
+console.log(bankAccount);
 
 // Multiples of 3 and 5
 let sum = 0;
@@ -327,11 +334,20 @@ console.log(getTwoLengths("yo mamma", "antidisestablismentarianism"));
 
 
 // 5. 
-const getmultipleLengths = (string) => {
-
+// iterate "over" an array
+// with a for in loop, you can "iterate over" an array
+const getmultipleLengths = (array) => {
+  // this will be the length of each string in the parameter "array"
+  const output = [];
+  for(let i = 0; i < array.length; i = i + 1){
+  
+  // add (push) the length of each element to out output array
+    output.push(array[i].length);
+  } 
+  return output;
 }
 
-// Not sure how to set this one up
+console.log(getmultipleLengths(["hello", "what", "is", "up", "dude"]));
 
 // 6.
 const maxOfThree = (num1, num2, num3) => {
@@ -346,15 +362,31 @@ const maxOfThree = (num1, num2, num3) => {
 console.log(maxOfThree(6, 9, 1));
 
 // 7.
-const printLongestWord = (array) =>
-  let longest = " ";
+const printLongestWord = (array) => {
 
-  array.forEach(function(word)) {
-    if(word.length > longestWord.length){
-      longestWord = word;
+  // edge case: empty array
+  if(arrayOfStrings.length === 0) {
+    console.error("empty array");
+    return;
+  }
+
+  let longestWordSoFar = arrayOfStrings[0];
+
+  // We are going to scan through the array
+  // if we find a longer word we will store it in the variable above
+  for(let i = 0; i < arrayOfStrings.length; i++){
+
+    // thisWord is the word we are on this time through the loop. Variable is declared in the loop because it's only being used once per scope
+    const thisWord = arrayOfStrings[i];
+
+    // if this word is longer than the cone we currently think is longest
+    if(thisWord.length > longestWordSoFar.length){
+      longestWordSoFar = thisWord;
     }
-  });
-  return longestWord;
+  }
+  return longestWordSoFar;
+}
+
 
 console.log(printLongestWord(["BoJack", "Princess", "Diane", "a", "Max", "Peanutbutter", "big", "Todd"]));
 
@@ -371,7 +403,7 @@ console.log(transmogrify(5, 3, 2));
 
 // Syntax
 // {} curly braces define the object
-// keyName: value ("string", number, boolean)
+// keyName: value ("string", number, boolean) Is a property of an object
 // Method - myMethod(); - function used when console.log-ed
 
 
